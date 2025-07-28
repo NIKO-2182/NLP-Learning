@@ -1,76 +1,54 @@
-## 🧬 Bioinformatics Learning Journey
+## NLP Learning Journey
 
-### 📋 Overview 
-Learning Journey is a repo for mastering computational biology. It’s all about sequence analysis, data retrieval, and biological modeling using Biopython. Built as part of my Honours in AIML at the University of Mumbai, this is where I hammer out skills for real-world bio challenges.
+### Overview
+This repository is a dedicated space for mastering Natural Language Processing (NLP), focusing on computational linguistics, text analysis, and language modeling. Built as part of my Honours in AIML at the University of Mumbai, this repo is where I hone skills for real-world NLP challenges, exploring techniques like sentiment analysis, text classification, and transformer-based models.
 
-### ✨ Features
-- Sequence AnalysisTackles FASTA files and sequence parsing like a pro.
-- Data RetrievalGrabs genomic data from NCBI for deep analysis.
-- Learning ExercisesSmashes Rosalind challenges and custom tasks.
-- Project BuildsCrafts tools like sequence pipelines for automation.
-- Modular SetupKeeps tutorials, assignments, and experiments tight and organized.
+### Features  
+Text Analysis: Processes raw text data, tackling tokenization, stemming, and named entity recognition.  
+Data Retrieval: Pulls text datasets from sources like IMDb, SQuAD, or web scraping for robust analysis.  
+Learning Exercises: Solves NLP challenges from platforms like Kaggle and custom tasks.  
+Project Builds: Develops tools like chatbots, sentiment analyzers, or text summarization pipelines.  
+Modular Setup: Organizes tutorials, assignments, experiments, and projects for streamlined learning.
 
-### 🏗️ ArchitectureThis is a lean learning pipeline:
+### Architecture
+This is a lean NLP learning pipeline:  
+Tutorials: Each tutorial is curated to a specific Framework and Libraries.
+Assignments: Solutions to NLP problems, such as text classification or topic modeling..  
+Experiments: Quick tests for ideas like fine-tuning BERT or larger models.  
+Projects: Practical tools for real-world NLP applications, such as automated summarization or dialog systems.
 
-- Tutorials: Step-by-step bio coding basics
-- Assignments: Solutions to tough problems
-- Experiments: Quick tests and ideas
-- Projects: Solid tools for real use
+### Tech Stack   
+Python: The backbone for all coding tasks.
+Hugging Face Transformers: Advanced models for tasks like text generation and classification.
+Langchain: 
+NLTK: Core library for foundational NLP tasks.  
+spaCy: Efficient preprocessing and entity recognition.   
+Pandas: Data manipulation and analysis.  
+Matplotlib/Seaborn: Visualization of text analytics and model performance.
+Unsloth: High-performance library for efficient fine-tuning and deployment of large language models.
+LangChain: Building context-aware NLP applications with LLMs and external data integration.
 
-### 🧰 Tech Stack
+### Getting Started Prerequisites  
+Python 3.10+  
+pip (Python package manager)  
+4GB+ RAM (recommended for transformer models)
+Graphics card (minimum Rtx 2050)
 
-Biopython — Core library for bioinformatics tasks  
-Python — The backbone of the grind  
-Pandas — Data crunching power  
-Matplotlib — Visuals that hit hard
-
-### 🚀 Getting Started
-Prerequisites
-
-- Python 3.9+  
-- pip (Python package manager)  
-- 4GB+ RAM (recommended)
-
-### Installation
-```bash
-git clone https://github.com/NIKO-2182/bioinformatics-learning.git
-cd bioinformatics-learning
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 📱 Usage
-
-Run a Tutorial  
-```
-python tutorials/fasta_parser.py
-```
-
-Tackle an Assignment  
-```
-python assignments/dna_counting.py
-```
-
-Test an Experiment  
-```
-jupyter notebook experiments/blast_test.ipynb
-```
-
-Build a Project  
-```
-python projects/sequence_pipeline.py
-```
+### Installation  
+Clone the repository: git clone https://github.com/NIKO-2182/NLP-Learning 
+Navigate to the directory: cd nlp-learning-journey  
+Create a virtual environment: python -m venv venv  
+Activate the environment: source venv/bin/activate (On Windows: venv\Scripts\activate)  
+Install dependencies: pip install -r requirements.txt
 
 
-### 🛠️ Customization
+### Customization  
+Add Tutorials: Include new scripts in tutorials/ with clear comments for learning.  
+Enhance Assignments: Add solutions to new NLP challenges in assignments/.  
+Expand Projects: Improve projects/ with advanced features like model deployment or custom datasets.
 
-- Add TutorialsDrop new scripts in tutorials/ with clear comments.
-- Boost AssignmentsToss solutions in assignments/ for fresh challenges.
-- Level Up ProjectsTweak projects/ with extras like BLAST.
+### License
+MIT License—see the LICENSE file for details.  
 
-### 📜 License
-MIT License—check the LICENSE file.
-
-### 🙌 Acknowledgments
-Shoutout to Biopython, Rosalind, and the bio community for the firepower.
+### Acknowledgments
+Big thanks to NLTK, spaCy, Hugging Face, Kaggle, and the NLP community for the tools and inspiration driving this journey.
